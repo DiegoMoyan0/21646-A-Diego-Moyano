@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-foro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "npx nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMoyan0/21646-A-Diego-Moyano.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMoyan0/21646-A-Diego-Moyano/issues"
+  },
+  "homepage": "https://github.com/DiegoMoyan0/21646-A-Diego-Moyano#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
