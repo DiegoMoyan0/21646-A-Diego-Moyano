@@ -65,3 +65,12 @@ header {
     border-color: #333;
     color: #fff;
 }
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+
+/* Aplica un margen inferior para evitar que el contenido se solape con el footer */
+.content {
+    margin-bottom: 50px; /* Ajusta la cantidad de margen según sea necesario */
+}

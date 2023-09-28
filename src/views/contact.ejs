@@ -4,20 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Foro Multitemático</title>
-    <!-- Agrega enlaces a los archivos CSS de Bootstrap y otros estilos aquí -->
-    <link rel="stylesheet" href="ruta-a-bootstrap.css">
-    <link rel="stylesheet" href="tu-archivo-de-estilos.css">
 </head>
 <body>
-    <!-- Incluye el header como partial -->
     <%- include('partials/header') %>
 
-    <!-- Contenido principal de la página -->
     <div class="container mt-5">
         <h1>Contacto</h1>
         <p>Si tienes alguna pregunta, comentario o sugerencia, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.</p>
         
-        <!-- Formulario de contacto -->
         <form action="/enviar" method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
@@ -35,11 +29,7 @@
         </form>
     </div>
 
-    <!-- Incluye el footer como partial -->
     <%- include('partials/footer') %>
 
-    <!-- Agrega enlaces a los archivos JavaScript de Bootstrap y otros scripts aquí -->
-    <script src="ruta-a-bootstrap.js"></script>
-    <script src="tus-scripts.js"></script>
 </body>
 </html>

@@ -4,28 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foro Multitemático</title>
-    <!-- Agrega enlaces a los archivos CSS de Bootstrap y otros estilos aquí -->
-    <link rel="stylesheet" href="ruta-a-bootstrap.css">
-    <link rel="stylesheet" href="tu-archivo-de-estilos.css">
-    <style>
-        /* Estilos personalizados para la página de inicio */
-        .jumbotron {
-            background-color: #f8f9fa;
-            padding: 2rem;
-        }
-
-        /* Aplica un margen inferior para evitar que el contenido se solape con el footer */
-        .content {
-            margin-bottom: 50px; /* Ajusta la cantidad de margen según sea necesario */
-        }
-    </style>
 </head>
 <body>
-    <!-- Incluye el header como partial -->
     <%- include('partials/header') %>
 
-    <!-- Contenido principal de la página -->
-    <div class="container mt-5 content"> <!-- Agregamos la clase "content" aquí -->
+    <div class="container mt-5 content"> 
         <div class="jumbotron">
             <h1 class="display-4">Bienvenido al Foro Multitemático</h1>
             <p class="lead">Un lugar para discutir una variedad de temas.</p>
@@ -33,8 +16,6 @@
             <p>Únete a nuestra comunidad y comienza a participar en las conversaciones.</p>
             <a class="btn btn-primary btn-lg" href="/foro" role="button">Ir al Foro</a>
         </div>
-
-        <!-- Aquí puedes agregar más contenido, como listas de temas, publicaciones recientes, etc., usando las clases de Bootstrap para diseñarlos. -->
 
     </div>
 
