@@ -1,26 +1,26 @@
 {
-  "name": "proyecto-foro",
+  "name": "foro-personalizado",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "nodemon app.js",
-    "start": "npx nodemon app"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DiegoMoyan0/21646-A-Diego-Moyano.git"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DiegoMoyan0/21646-A-Diego-Moyano/issues"
-  },
-  "homepage": "https://github.com/DiegoMoyan0/21646-A-Diego-Moyano#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "mysql2": "^3.6.1",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.0",
     "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
